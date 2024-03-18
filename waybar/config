@@ -1,0 +1,175 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### DEFAULT ### //
+{
+//"include": "~/.config/waybar/modules",
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 0,
+"margin-left": 0,
+"margin-right": 0,
+
+"modules-left": [
+	"hyprland/workspaces",
+	"custom/separator#dot-line",
+	"bluetooth",
+	"custom/separator#dot-line",
+	"cava",
+	],
+
+"modules-center": [
+	"custom/menu",
+	"custom/separator#dot-line",
+	"hyprland/window",
+	"custom/separator#dot-line",
+	"custom/lock",
+	], 
+
+"modules-right": [
+	//"tray",
+	"pulseaudio",
+	"custom/separator#dot-line",
+	"battery",
+	"custom/separator#dot-line", 
+	"clock",
+	"custom/separator#dot-line",
+	"network",
+	"custom/separator#dot-line",
+	"custom/power",
+	],
+"hyprland/window":{
+	"max-length":20,
+	"rewrite":{
+		"(.*) - Firefox":"\udb80\ude39 ",
+		}
+}
+,
+"custom/cava-internal":{
+	"exec": "~/.config/waybar/Cava.sh",
+	"tooltip": false
+			}
+,
+"custom/separator#dot-line":{
+	"format":"\ue621",
+	"interval":"once",
+	"toolyip":false
+	
+	},
+	
+"custom/power":{
+	"format":"\u23fb ",
+	"on-click":"exec rofi -show p -modi p:'rofi-power-menu' ",
+
+	},
+"network":{
+	"format":"{ifname}",
+	"format-wifi":"{icon}",
+	"format-ethernet":"\udb80\ude00",
+	"format-linked":"\udb80\ude01 {finame} {No IP}",
+	"tooltip-format-wifi":"{essid} {icon} {signalStrength} %",
+	"tooltip-format-ethernet":"{ifname}  \udb80\ude00",
+	"max-length":30,
+	"format-icons": [ "\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"  ]
+	},
+"clock":{
+	"interval":60,
+	"format":"\ue641 {:%H:%M}"
+	},
+"battery":{
+	"interval":3,
+	"align":0,
+	"rotate":0,
+	"full-at":100,
+	"design-capacity":false,
+	"states":{
+		"good":95,
+		"warning":30,
+		"critical":15
+		},
+	"format":"{capacity} %",
+	"format-charging":"\udb80\udc84 {capacity} %",
+	"format-plugged":"\ueb2d ",
+	"format-full":"{icon} Full",
+	"format-alt":"{icon} {time}",
+	"format-icons":["\udb82\udc9f ", "\udb82\udc9c ", "\udb80\udc86 ", "\udb80\udc87 ", "\udb80\udc88 ", "\udb82\udc9d ", "\udb80\udc89 ", "\udb82\udc9e ", "\udb82\udc9e ", "\udb80\udc8a ", "\udb80\udc8b ", "\udb80\udc85 "  ],
+	},
+"custom/lock":{
+	"format":"\uf456 ",
+	"on-click":"exec hyprlock",
+	"tooltip":false,
+	},
+"custom/menu":{
+	"format":"\uf303 ",
+	"tooltip":false,
+	"on-click": "pkill rofi || rofi -show drun -modi run,drun,filebrowser",
+	},
+
+"cava": {
+       // "cava_config": "~/.config/cava/conf",
+        "framerate": 30,
+        "autosens": 1,
+        "sensitivity": 100,
+        "bars": 14,
+        "lower_cutoff_freq": 50,
+        "higher_cutoff_freq": 10000,
+        "method": "pulse",
+        "source": "auto",
+        "stereo": true,
+        "reverse": false,
+        "bar_delimiter": 0,
+        "monstercat": false,
+        "waves": false,
+        "noise_reduction": 0.77,
+        "input_delay": 2,
+        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+        "actions": {
+                   "on-click-right": "mode"
+                   }
+	},
+	
+"bluetooth":{
+	"format":"\uf293 ",
+	"format-disabled":"\udb80\udcaf ",
+	"format-connected":"\udb80\udcb1 ",
+	"tooltip-format":"\uf293 {device_alias} ",
+	"tooltip-format-connected":"{device_enumerate}",
+	"tooltip-format-enumerate-connected":"\uf293 {device_alias} \udb82\udd49 {device_battery_percentage} %",
+	"tooltip":true,
+	"on-click":"bluetoothctl",
+	},
+"hyprland/workspaces":{
+	"active-only":false,
+	"all-outputs":true,
+	"format": "{icon}",
+	"show-special":false,
+	"on-click":"activate",
+	"format-icons":{
+		"1":"1",
+		"2":"2",
+		"3":"3",
+		"4":"4",
+		"5":"5",
+		"6":"6",
+		"7":"7",
+		"8":"8",
+		"9":"9",
+		}	
+	},
+
+"pulseaudio":{
+	"format":"{icon}",
+	"format-bluetooth":"{icon} \udb80\udcb0 {volume} %",
+	"format-muted":"\udb81\udd81 ",
+	"format-icon":{
+		},
+	"format-icons":[ "\udb81\udd7f ", "\udb81\udd80 ","\udb81\udd7e ", "\uf028 "],
+	"ignored-sinks":["Easy Effects Sink"],
+
+	}
+}
