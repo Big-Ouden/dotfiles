@@ -1,0 +1,32 @@
+COMPIL = gcc -Wall -Wextra -std=c99 -g
+
+CFLAGS = -lcunit
+
+SRC = src
+OBJ = obj
+BIN = bin
+INCLUDE = include
+SRC_TEST = test
+#OBJ_TEST=obj_test
+
+DEPENDANCES = $(wildcard $(INCLUDE)/*.h)
+SOURCES = $(wildcard $(SRC)/*.c)
+SOURCES_TEST = $(wildcard $(SRC_TEST)/*test*.c ) 
+
+
+$(OBJ)/%.o: $(SRC)/%.c $(DEPENDANCES)
+	$(COMPIL) -o $@ -c $< -I$(INCLUDE)
+
+OBJETS = $(SOURCES:$(SRC)/%.c=$(OBJ)/%.o)
+
+
+
+build: $(OBJETS)
+	$(COMPIL) -o bin/jeu.out $^
+
+.PHONY: test clean
+test: $(SOURCES_TEST)  $(OBJETS)
+	$(COMPIL)  -o bin/test.out $^ $(CFLAGS)
+
+clean: 
+	rm $(OBJ)/*.o ; rm $(BIN)/*.out

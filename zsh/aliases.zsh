@@ -54,7 +54,6 @@ alias lh='ls -alt | head' # see the last modified files
 alias screen='TERM=screen screen'
 alias cl='clear'
 
-
 # Zippin
 alias gz='tar -zcvf'
 

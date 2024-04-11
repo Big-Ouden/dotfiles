@@ -1,0 +1,13 @@
+2024-03-26 12:22:15.592 [info] Extension host with pid 28710 started
+2024-03-26 12:22:15.592 [info] Skipping acquiring lock for /home/simon/.config/Code/User/workspaceStorage/f60e6fb7e587011b6978a339448863ae.
+2024-03-26 12:22:15.793 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-26 12:22:15.808 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-26 12:22:15.859 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-26 12:22:15.989 [info] Eager extensions activated
+2024-03-26 12:22:16.146 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 12:22:16.150 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 12:22:16.163 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 12:22:16.343 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 12:22:16.686 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-03-26 12:22:21.548 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-26 12:22:21.593 [info] Extension host with pid 28710 exiting with code 0

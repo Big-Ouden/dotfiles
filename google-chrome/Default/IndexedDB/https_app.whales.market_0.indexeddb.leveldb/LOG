@@ -1,0 +1,7 @@
+2024/04/09-20:30:13.772 2b21 Reusing MANIFEST /home/simon/.config/google-chrome/Default/IndexedDB/https_app.whales.market_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/09-20:30:13.773 2b21 Recovering log #3
+2024/04/09-20:30:13.773 2b21 Reusing old log /home/simon/.config/google-chrome/Default/IndexedDB/https_app.whales.market_0.indexeddb.leveldb/000003.log 
+2024/04/10-01:35:25.298 2b22 Level-0 table #5: started
+2024/04/10-01:35:25.300 2b22 Level-0 table #5: 2814 bytes OK
+2024/04/10-01:35:25.303 2b22 Delete type=0 #3
+2024/04/10-01:35:25.303 2b22 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,25 @@
+2024-04-05 22:14:40.082 [info] Started local extension host with pid 15396.
+2024-04-05 22:14:42.870 [info] [perf] Render performance baseline is 54ms
+2024-04-05 22:14:43.838 [error] Attempting to register step with id GitHub.copilot#copilotWelcome#copilot.chat twice. Second is dropped.: Error: Attempting to register step with id GitHub.copilot#copilotWelcome#copilot.chat twice. Second is dropped.
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2402:25644
+    at Array.forEach (<anonymous>)
+    at A._registerWalkthrough (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2402:25606)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2402:23621
+    at async Promise.all (index 0)
+    at async A.W (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2402:21687)
+2024-04-05 22:14:45.394 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-04-05 22:54:37.528 [error] There are no commenting ranges at the current position.: Error: There are no commenting ranges at the current position.
+    at O.addCommentAtLine (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:2556)
+    at O.addOrToggleCommentAtLine (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:2087)
+    at O.Z (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:1793)
+    at l.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2336:21305)
+    at G.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at G.z (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1972)
+    at G.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2188)
+    at G.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:753:19732)
+    at Xb.he.onMouseUp (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:753:18024)
+    at S.emitMouseUp (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:95:39929)
+    at L.emitMouseUp (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:689:40956)
+    at m.F (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:727:14781)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:727:12419
+    at HTMLDivElement.<anonymous> (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:722:30999)

@@ -1,0 +1,6 @@
+2024/03/21-12:10:39.221 357f Creating DB /home/simon/.config/google-chrome/Default/IndexedDB/https_dexscreener.com_0.indexeddb.leveldb since it was missing.
+2024/03/21-12:10:39.241 357f Reusing MANIFEST /home/simon/.config/google-chrome/Default/IndexedDB/https_dexscreener.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/21-12:10:39.295 3580 Level-0 table #5: started
+2024/03/21-12:10:39.298 3580 Level-0 table #5: 1312 bytes OK
+2024/03/21-12:10:39.300 3580 Delete type=0 #3
+2024/03/21-12:10:39.301 357f Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

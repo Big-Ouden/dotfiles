@@ -1,0 +1,69 @@
+2024-03-26 11:13:12.426 [info] [FetcherService] Using Helix fetcher
+2024-03-26 11:13:12.427 [info] [gitExtensionService] Initializing Git extension service.
+2024-03-26 11:13:12.427 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-03-26 11:13:12.427 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-03-26 11:13:12.427 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-03-26 11:13:13.346 [info] [auth] GitHub login failed
+2024-03-26 11:13:13.351 [info] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-03-26 11:13:13.380 [info] [auth] GitHub login failed
+2024-03-26 11:13:40.699 [info] [auth] Logged in as Big-Ouden
+2024-03-26 11:13:40.699 [info] [auth] Logged in as Big-Ouden
+2024-03-26 11:13:41.845 [info] [chat] copilot token chat_enabled: true
+2024-03-26 11:13:41.845 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-03-26 11:13:41.845 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-03-26 11:13:41.848 [info] [auth] Got Copilot token for Big-Ouden
+2024-03-26 11:13:41.858 [info] [chat] copilot token chat_enabled: true
+2024-03-26 11:13:41.858 [info] [auth] Got Copilot token for Big-Ouden
+2024-03-26 11:30:32.578 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-03-26 11:30:32.578 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-03-26 11:30:32.578 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-03-26 11:30:32.578 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-03-26 11:30:33.468 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 889 ms
+2024-03-26 11:30:33.790 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-03-26 11:30:33.792 [info] [streamChoices] request done: requestId: [5eacc5ed-ac1c-4acd-98f8-0757d6092b33] responseId: [5eacc5ed-ac1c-4acd-98f8-0757d6092b33] model deployment ID: []
+2024-03-26 11:30:33.816 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-03-26 11:30:33.816 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-03-26 11:30:33.816 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-03-26 11:30:33.816 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-03-26 11:30:34.430 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 613 ms
+2024-03-26 11:30:34.887 [info] [streamMessages] message 0 returned. finish reason: [client-trimmed]
+2024-03-26 11:30:34.888 [info] [streamChoices] request done: requestId: [d97ed8e0-ce1c-44f5-baf4-3655d5726755] responseId: [d97ed8e0-ce1c-44f5-baf4-3655d5726755] model deployment ID: []
+2024-03-26 11:30:34.909 [info] [editGeneration] Diff metrics: {
+	"diffToEntireScore": {
+		"equalCharCount": 0,
+		"originalCharCount": 4126,
+		"modifiedCharCount": 298,
+		"originalCharRatio": 0,
+		"modifiedCharRatio": 0
+	},
+	"diffToRangeScore": {
+		"equalCharCount": 0,
+		"originalCharCount": 204,
+		"modifiedCharCount": 298,
+		"originalCharRatio": 0,
+		"modifiedCharRatio": 0
+	}
+}
+2024-03-26 11:30:34.909 [info] [editGeneration] (Default) Replacing selected code
+2024-03-26 11:31:40.451 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-03-26 11:31:40.451 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-03-26 11:31:40.451 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-03-26 11:31:40.451 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-03-26 11:33:05.824 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-03-26 11:33:05.824 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-03-26 11:33:05.824 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-03-26 11:33:05.824 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-03-26 11:33:34.015 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-03-26 11:33:34.015 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-03-26 11:33:34.015 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-03-26 11:33:34.015 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-03-26 11:33:44.217 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-03-26 11:33:44.217 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-03-26 11:33:44.217 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-03-26 11:33:44.217 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-03-26 11:38:41.883 [info] [auth] Logged in as Big-Ouden
+2024-03-26 11:38:42.340 [info] [chat] copilot token chat_enabled: true
+2024-03-26 11:38:42.340 [info] [auth] Got Copilot token for Big-Ouden
+2024-03-26 12:21:42.328 [info] [auth] Logged in as Big-Ouden
+2024-03-26 12:21:43.752 [info] [chat] copilot token chat_enabled: true
+2024-03-26 12:21:43.753 [info] [auth] Got Copilot token for Big-Ouden

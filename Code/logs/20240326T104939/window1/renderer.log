@@ -1,0 +1,34 @@
+2024-03-26 10:49:41.233 [info] Started local extension host with pid 21136.
+2024-03-26 10:49:44.007 [info] [perf] Render performance baseline is 68ms
+2024-03-26 10:49:47.024 [error] Cannot read properties of undefined (reading 'accessToken'): TypeError: Cannot read properties of undefined (reading 'accessToken')
+    at g.f (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1678:21613)
+    at l.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1678:21434)
+2024-03-26 11:13:13.355 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-03-26 11:13:40.677 [info] Settings Sync: Updating due to change in sessions
+2024-03-26 11:13:41.895 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2024-03-26 11:13:41.896 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2024-03-26 11:13:46.827 [error] User did not consent to login.: Error: User did not consent to login.
+    at l.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1595:24373)
+    at async l.$getSession (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1595:25290)
+2024-03-26 11:19:16.395 [error] [Extension Host] [default] Error sending telemetry FetchError: Stream closed with error code NGHTTP2_REFUSED_STREAM
+    at fetch (/home/simon/.vscode/extensions/github.copilot-1.175.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/simon/.vscode/extensions/github.copilot-1.175.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at xU.fetch (/home/simon/.vscode/extensions/github.copilot-1.175.0/lib/src/network/helix.ts:78:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_ERROR',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2024-03-26 12:32:00.268 [error] [Extension Host] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/simon/.vscode/extensions/github.copilot-1.175.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/simon/.vscode/extensions/github.copilot-1.175.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at xU.fetch (/home/simon/.vscode/extensions/github.copilot-1.175.0/lib/src/network/helix.ts:78:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}

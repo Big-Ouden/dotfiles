@@ -1,0 +1,83 @@
+2024-03-26 10:49:42.554 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-03-26 10:49:45.165 [info] Getting Manifest... ms-vscode.cpptools
+2024-03-26 10:49:49.184 [info] Installing extension: ms-vscode.cpptools
+2024-03-26 10:50:41.462 [warning] Extension signature verification failed with error 'UnknownError': ms-vscode.cpptools
+2024-03-26 10:50:44.315 [info] Extracted extension to file:///home/simon/.vscode/extensions/ms-vscode.cpptools-1.19.9-linux-x64: ms-vscode.cpptools
+2024-03-26 10:50:44.332 [info] Renamed to /home/simon/.vscode/extensions/ms-vscode.cpptools-1.19.9-linux-x64
+2024-03-26 10:50:44.342 [info] Extracting extension completed. ms-vscode.cpptools
+2024-03-26 10:50:44.361 [info] Extension installed successfully: ms-vscode.cpptools
+2024-03-26 10:50:44.378 [info] Marked extension as uninstalled ms-vscode.cpptools-1.19.8-linux-x64
+2024-03-26 10:50:44.430 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/simon/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/simon/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-26 11:12:50.342 [info] Getting Manifest... github.copilot
+2024-03-26 11:12:50.369 [info] Installing extension: github.copilot
+2024-03-26 11:12:51.853 [info] Getting Manifest... github.copilot-chat
+2024-03-26 11:12:52.010 [info] Installing extension: github.copilot-chat
+2024-03-26 11:13:10.203 [warning] Extension signature verification failed with error 'UnknownError': github.copilot-chat
+2024-03-26 11:13:10.205 [warning] Extension signature verification failed with error 'UnknownError': github.copilot
+2024-03-26 11:13:10.561 [info] Extracted extension to file:///home/simon/.vscode/extensions/github.copilot-chat-0.13.1: github.copilot-chat
+2024-03-26 11:13:10.573 [info] Renamed to /home/simon/.vscode/extensions/github.copilot-chat-0.13.1
+2024-03-26 11:13:10.577 [info] Extracting extension completed. github.copilot-chat
+2024-03-26 11:13:10.666 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/simon/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/simon/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-26 11:13:10.696 [info] Extracted extension to file:///home/simon/.vscode/extensions/github.copilot-1.175.0: github.copilot
+2024-03-26 11:13:10.703 [info] Renamed to /home/simon/.vscode/extensions/github.copilot-1.175.0
+2024-03-26 11:13:10.705 [info] Extracting extension completed. github.copilot
+2024-03-26 11:13:10.719 [info] Extension installed successfully: github.copilot-chat
+2024-03-26 11:13:10.719 [info] Extension installed successfully: github.copilot
+2024-03-26 11:14:21.853 [info] Uninstalling extension from the profile: github.copilot@1.175.0 vscode-userdata:/home/simon/.vscode/extensions/extensions.json
+2024-03-26 11:14:21.884 [info] Uninstalling extension from the profile: github.copilot-chat@0.13.1 vscode-userdata:/home/simon/.vscode/extensions/extensions.json
+2024-03-26 11:14:21.884 [info] Extensions is already requested to uninstall github.copilot
+2024-03-26 11:14:21.884 [info] Extensions is already requested to uninstall github.copilot-chat
+2024-03-26 11:14:21.910 [info] Marked extension as uninstalled github.copilot-1.175.0
+2024-03-26 11:14:21.924 [info] Marked extension as uninstalled github.copilot-chat-0.13.1
+2024-03-26 11:14:21.969 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/simon/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/simon/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-26 11:14:22.077 [info] Successfully uninstalled extension from the profile github.copilot-chat@0.13.1 vscode-userdata:/home/simon/.vscode/extensions/extensions.json
+2024-03-26 11:14:22.407 [info] Successfully uninstalled extension from the profile github.copilot@1.175.0 vscode-userdata:/home/simon/.vscode/extensions/extensions.json
+2024-03-26 11:14:24.992 [info] Getting Manifest... github.copilot
+2024-03-26 11:14:25.007 [info] Installing extension: github.copilot
+2024-03-26 11:14:25.810 [info] Getting Manifest... github.copilot-chat
+2024-03-26 11:14:25.945 [info] Installing extension: github.copilot-chat
+2024-03-26 11:14:26.214 [warning] Extension signature verification failed with error 'UnknownError': github.copilot-chat
+2024-03-26 11:14:26.218 [warning] Extension signature verification failed with error 'UnknownError': github.copilot
+2024-03-26 11:14:26.225 [info] Removed the extension from uninstalled list: github.copilot-chat
+2024-03-26 11:14:26.234 [info] Removed the extension from uninstalled list: github.copilot
+2024-03-26 11:14:26.304 [info] Extension installed successfully: github.copilot-chat
+2024-03-26 11:14:26.304 [info] Extension installed successfully: github.copilot
+2024-03-26 12:22:16.407 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)

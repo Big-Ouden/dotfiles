@@ -1,0 +1,59 @@
+{
+  "parser-directories": [
+    "/home/simon/github",
+    "/home/simon/src",
+    "/home/simon/source",
+    "/home/simon/projects",
+    "/home/simon/dev",
+    "/home/simon/git"
+  ],
+  "theme": {
+    "variable.builtin": {
+      "bold": true
+    },
+    "string.special": 30,
+    "variable.parameter": {
+      "underline": true
+    },
+    "operator": {
+      "color": 239,
+      "bold": true
+    },
+    "function": 26,
+    "comment": {
+      "italic": true,
+      "color": 245
+    },
+    "number": {
+      "color": 94,
+      "bold": true
+    },
+    "function.builtin": {
+      "bold": true,
+      "color": 26
+    },
+    "module": 136,
+    "constant": 94,
+    "property": 124,
+    "constant.builtin": {
+      "color": 94,
+      "bold": true
+    },
+    "embedded": null,
+    "string": 28,
+    "keyword": 56,
+    "attribute": {
+      "color": 124,
+      "italic": true
+    },
+    "constructor": 136,
+    "punctuation.bracket": 239,
+    "tag": 18,
+    "punctuation.delimiter": 239,
+    "type": 23,
+    "type.builtin": {
+      "bold": true,
+      "color": 23
+    }
+  }
+}

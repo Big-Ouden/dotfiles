@@ -1,0 +1,24 @@
+2024-04-09 19:48:40.272 [info] Log level: Info
+2024-04-09 19:48:40.272 [info] Validating found git in: "git"
+2024-04-09 19:48:40.272 [info] Using git "2.44.0" from "git"
+2024-04-09 19:48:40.272 [info] > git rev-parse --show-toplevel [39ms]
+2024-04-09 19:48:40.272 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-04-09 19:48:40.272 [info] Open repository: /home/simon/programmation/prim_s2
+2024-04-09 19:48:40.274 [info] > git rev-parse --show-toplevel [905ms]
+2024-04-09 19:48:40.275 [info] > git config --get commit.template [917ms]
+2024-04-09 19:48:40.639 [info] > git rev-parse --show-toplevel [32ms]
+2024-04-09 19:48:40.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lot_e_test refs/remotes/lot_e_test [31ms]
+2024-04-09 19:48:40.684 [info] > git rev-parse --show-toplevel [22ms]
+2024-04-09 19:48:41.188 [info] > git rev-parse --show-toplevel [489ms]
+2024-04-09 19:48:41.530 [info] > git check-ignore -v -z --stdin [268ms]
+2024-04-09 19:48:41.532 [info] > git status -z -uall [244ms]
+2024-04-09 19:48:41.534 [info] > git rev-parse --show-toplevel [235ms]
+2024-04-09 19:48:41.657 [info] > git config --get commit.template [74ms]
+2024-04-09 19:48:41.658 [info] > git rev-parse --show-toplevel [88ms]
+2024-04-09 19:48:41.703 [info] > git rev-parse --show-toplevel [28ms]
+2024-04-09 19:48:41.720 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lot_e_test refs/remotes/lot_e_test [24ms]
+2024-04-09 19:48:41.805 [info] > git rev-parse --show-toplevel [86ms]
+2024-04-09 19:48:41.841 [info] > git show --textconv :test/game_test.c [25ms]
+2024-04-09 19:48:41.842 [info] > git ls-files --stage -- /home/simon/programmation/prim_s2/test/game_test.c [15ms]
+2024-04-09 19:48:41.865 [info] > git cat-file -s ba4ef5490ebea417e5bcec2ce83eeddca2deae0c [9ms]
+2024-04-09 19:48:41.908 [info] > git status -z -uall [29ms]
