@@ -1,4 +1,5 @@
 #!/bin/bash
 
 ## Set Default Wallpaper
-feh --bg-fill "$HOME/.config/bspwm/themes/default/wallpaper" 
+# feh --bg-fill "$HOME/.config/bspwm/themes/default/wallpaper"
+feh --bg-fill "$HOME/wallpaper/aesthetic-wallpapers/images/girl-on-black.png"
