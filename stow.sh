@@ -5,7 +5,7 @@ arguments_soft="--adopt -nv"
 confirm="n"
 force="n"
 
-if [[ $# -eq 0 || $# -gt 1 ]]; then
+if [[ $# -eq 0 || $# -gt 2 ]]; then
     echo "Error syntax. Usage : ./stow.sh <source_dir>"
     exit 1
 fi
