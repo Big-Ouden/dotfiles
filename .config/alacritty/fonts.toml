@@ -12,6 +12,7 @@ builtin_box_drawing = true
 ## Normal font family.
 [font.normal]
 family = "JetBrainsMono Nerd Font"
+# family = "ComicMono"
 
 ## If the family is not specified, it will fall back to the value specified for the normal font.
 [font.bold]

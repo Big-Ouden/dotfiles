@@ -58,10 +58,10 @@ history = 10000
 multiplier = 3
 
 ## BELL -----------------------------------------------------------
-[bell]
-animation = "Linear"
-duration = 20
-command = { program = "paplay", args = ["/usr/share/sounds/freedesktop/stereo/dialog-error.oga"] }
+# [bell]
+# animation = "Linear"
+# duration = 20
+# command = { program = "paplay", args = ["/usr/share/sounds/freedesktop/stereo/dialog-error.oga"] }
 
 ## SELECTION ------------------------------------------------------
 [selection]

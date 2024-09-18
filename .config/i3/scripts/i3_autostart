@@ -37,7 +37,8 @@ ksuperkey -e 'Super_R=Alt_L|F1' &
 xsetroot -cursor_name left_ptr
 
 # Restore wallpaper
-hsetroot -cover $HOME/wallpaper/aesthetic-wallpapers/images/girl-on-black.png
+# hsetroot -cover $HOME/wallpaper/aesthetic-wallpapers/images/girl-on-black.png
+hsetroot -cover $HOME/wallpaper/chosen_background
 
 # Lauch notification daemon
 "$idir"/scripts/i3_dunst
