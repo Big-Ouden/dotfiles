@@ -1,4 +1,5 @@
 stow.sh
+scripts/*
 change_background.sh
 
 # Comments and blank lines are allowed.

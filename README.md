@@ -18,18 +18,23 @@
 - viewnior (simple & fast image viewer)
 - zathura (document viewer)
 - zsh (UNIX command interpreter (shell))
+- stow (symlink farmer manager)
 
 ### Requirement installation
 
 - pacman (Arch)
 
 ```sh
-pacman -Syy alacritty betterlockscreen btop calcurse dunst geany hyprland i3 neofetch nvim ranger rofi Thunar viewnior zathura zsh
+sudo pacman -Syy alacritty betterlockscreen btop calcurse dunst geany hyprland i3 neofetch nvim ranger rofi Thunar viewnior zathura zsh stow
 ```
 
 - apt (debian)
 
 ```sh
-apt update
-apt install alacritty betterlockscreen btop calcurse dunst geany hyprland i3 neofetch nvim ranger rofi Thunar viewnior zathura zsh
+sudo apt update
+sudo apt install alacritty betterlockscreen btop calcurse dunst geany hyprland i3 neofetch nvim ranger rofi Thunar viewnior zathura zsh stow
 ```
+
+### installation de la config
+
+J'utilise [stow](https://www.gnu.org/software/stow/manual/stow.html) qui est un "symlink farm manager" qui permet de creer des symlink entre les fichiers de configuration dans les dossiers usuels du type .config/ .zshrc
