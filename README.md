@@ -35,6 +35,23 @@ sudo apt update
 sudo apt install alacritty betterlockscreen btop calcurse dunst geany hyprland i3 neofetch nvim ranger rofi Thunar viewnior zathura zsh stow
 ```
 
-### installation de la config
+### Contexte
 
-J'utilise [stow](https://www.gnu.org/software/stow/manual/stow.html) qui est un "symlink farm manager" qui permet de creer des symlink entre les fichiers de configuration dans les dossiers usuels du type .config/ .zshrc
+J'utilise [stow](https://www.gnu.org/software/stow/manual/stow.html) qui est un "symlink farm manager" qui permet de creer des symlink entre les fichiers de configuration dans les dossiers usuels du type .config/ .zshrc.
+
+Arborescence du projet :
+
+dotfiles/
+├── config
+│   ├── dot-config
+│   ├── dot-fehbg
+│   ├── dot-oh-my-zsh
+│   └── dot-zshrc -> dot-config/zsh/zshrc
+├── README.md
+├── scripts
+│   ├── change_background.sh
+│   └── stow.sh
+└── wallpaper
+├── aesthetic-wallpapers
+├── chosen_background
+└── walls

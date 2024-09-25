@@ -184,11 +184,15 @@ return {
 			cssls = {},
 			tailwindcss = {},
 			dockerls = {},
+			ocamllsp = {},
 			sqlls = {},
 			terraformls = {},
 			jsonls = {},
 			yamlls = {},
-
+			cpptools = {},
+			cpplint = {},
+			marksman = {},
+			texlab = {},
 			lua_ls = {
 				-- cmd = {...},
 				-- filetypes = { ...},
