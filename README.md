@@ -37,7 +37,7 @@ sudo apt install alacritty betterlockscreen btop calcurse dunst geany hyprland i
 
 ### Contexte
 
-J'utilise [stow](https://www.gnu.org/software/stow/manual/stow.html) qui est un "symlink farm manager" qui permet de creer des symlink entre les fichiers de configuration dans les dossiers usuels du type .config/ .zshrc.
+J'utilise
 
 Arborescence du projet :
 
@@ -55,3 +55,31 @@ dotfiles/
 ├── aesthetic-wallpapers
 ├── chosen_background
 └── walls
+
+Le principe est le suivant : dans le home il existe des fichier (souvent) cachés comme .config ou .bashrc. Ces fichiers sont des fichiers de configuration pour des applications comme i3, bash, nvim. Seulements il en existe beaucoup et ils peuvent être à différents endroit ce qui ne permet pas de faire du versionning sur nos fichiers de configuration. Ainsi si une de vos config ne fonctionne plus il faut donc aller mettre les mains dans le camboui et chercher me fichier de conf et ça peut être fastidieux.
+
+D'où l'utilité de mon repo, qui va creer des liens symboliques dans les endroits qu'il faut qui vont pointer sur les fichiers correspondant qui sont dans mon repo et permet donc de faire du versionning sur un repo unique.
+On utilise [stow](https://www.gnu.org/software/stow/manual/stow.html) qui est un "symlink farm manager" qui permet de creer des symlink entre les fichiers de configuration dans les dossiers usuels du type .config/ .zshrc.
+
+> On remarque que des fichiers ont pour nom "dot-...", c'est car stow va remplacer le "dot-" en "." au moment de creer des lien symboliques (ça permet de na pas se balader entre des fichiers cachés).
+
+## installation
+
+Il faut se mettre à la racine du repo et lancer le script stow.sh.
+
+```sh
+cd dotfiles/
+./scripts/stow.sh
+WARNING: in simulation mode so not modifying filesystem.
+Continue? (Y/N):
+```
+
+Dans l'idée tout est bon :thumbsup:
+
+## Changer l'arrière plan du bureau
+
+Le background qui est choisi pour le bureau est celui vers lequel pointe le lien symbolique ./wallpaper/chosen_background. Ainsi pour le changer il suffi de changer la cible du lien (sans changer le nom). Pour vous faciliter la vie j'ai fait un script ./scripts/change_background.sh :
+
+```sh
+./scripts/change_background.sh path_of_wallpaper_u_want
+```
