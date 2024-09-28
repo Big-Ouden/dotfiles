@@ -4,11 +4,9 @@
 
 ![screen 1](assets/1.png)
 ![screen 2](assets/2.png)
-![screen 3](assets/3.png)
 ![screen 4](assets/4.png)
 ![screen 5](assets/5.png)
 ![screen 6](assets/6.png)
-![screen 7](assets/7.png)
 
 ## Dépendances
 
