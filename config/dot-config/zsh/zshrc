@@ -123,3 +123,6 @@ rehash_precmd() {
 add-zsh-hook -Uz precmd rehash_precmd
 
 eval $(opam env)
+alias ssh="TERM=xterm ssh"
+
+
