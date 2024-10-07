@@ -7,7 +7,9 @@ if [[ $# -eq 0 || $# -gt 2 ]]; then
     exit 1
 fi
 
+rm ./wallpaper/chosen_background
 ln $arguments $HOME/dotfiles/$1 ./wallpaper/chosen_background
+# echo "ln $arguments $HOME/dotfiles/$1 ./wallpaper/chosen_background"
 hsetroot -cover $HOME/dotfiles/wallpaper/chosen_background
 
 exit 0
