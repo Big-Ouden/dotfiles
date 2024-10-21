@@ -1,5 +1,2 @@
-#!/bin/bash
-
-## Set Default Wallpaper
-# feh --bg-fill "$HOME/.config/bspwm/themes/default/wallpaper"
-feh --bg-fill "$HOME/dotfiles/wallpaper/chosen_background"
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/simon/dotfiles/wallpaper/chosen_background' 
