@@ -3,10 +3,11 @@
 ## Copyright (C) 2020-2024 Aditya Shakya <adi1090x@gmail.com>
 
 # Colors
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-CDIR=`cd "$DIR" && cd .. && pwd`
-POWER_ON=`cat $CDIR/colors.ini | grep 'GREEN' | head -n1 | cut -d '=' -f2 | tr -d ' '`
-POWER_OFF=`cat $CDIR/colors.ini | grep 'ALTFOREGROUND' | head -n1 | cut -d '=' -f2 | tr -d ' '`
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
+CDIR=$(cd "$DIR" && cd .. && pwd)
+# POWER_ON=`cat $CDIR/colors.ini | grep 'GREEN' | head -n1 | cut -d '=' -f2 | tr -d ' '`
+POWER_ON=$(cat $CDIR/colors.ini | grep 'FOREGROUND' | head -n1 | cut -d '=' -f2 | tr -d ' ')
+POWER_OFF=$(cat $CDIR/colors.ini | grep 'ALTFOREGROUND' | head -n1 | cut -d '=' -f2 | tr -d ' ')
 
 # Checks if bluetooth controller is powered on
 power_on() {
@@ -31,13 +32,13 @@ device_connected() {
 # Useful for status bars like polybar, etc.
 print_status() {
     if power_on; then
-		if [[ -z `bluetoothctl info "$device" | grep "Alias" | cut -d ' ' -f 2-` ]]; then
-			echo "%{F$POWER_ON}%{T2}%{T-} %{F-}On"
-		fi
-		
+        if [[ -z $(bluetoothctl info "$device" | grep "Alias" | cut -d ' ' -f 2-) ]]; then
+            echo "%{F$POWER_ON}%{T2}%{T-} %{F-}On"
+        fi
+
         paired_devices_cmd="devices Paired"
         # Check if an outdated version of bluetoothctl is used to preserve backwards compatibility
-        if (( $(echo "$(bluetoothctl version | cut -d ' ' -f 2) < 5.65" | bc -l) )); then
+        if (($(echo "$(bluetoothctl version | cut -d ' ' -f 2) < 5.65" | bc -l))); then
             paired_devices_cmd="paired-devices"
         fi
 

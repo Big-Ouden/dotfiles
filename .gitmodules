@@ -1,6 +1,3 @@
-[submodule "dot-oh-my-zsh"]
-	path = config/dot-oh-my-zsh
-	url = git@github.com:Big-Ouden/oh_my_zsh.git
 [submodule "wallpaper/aesthetic-wallpapers"]
 	path = wallpaper/aesthetic-wallpapers
 	url = https://github.com/D3Ext/aesthetic-wallpapers.git
