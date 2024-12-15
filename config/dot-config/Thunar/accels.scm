@@ -66,6 +66,10 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-location-alt" "<Alt>d")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/create-folder" "<Primary><Shift>n")
 ; (gtk_accel_path "<Actions>/ThunarWindow/search" "<Primary>f")
+<<<<<<< HEAD
+; (gtk_accel_path "<Actions>/ThunarBookmarks/7930c84006b724bbebf57ef1d40b068b" "")
+=======
+>>>>>>> 4efdd8f6169de3ff8dd8b67757fe829f6d791c5b
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-type" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/paste-2" "<Shift>Insert")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-in-alt2" "<Primary>equal")
