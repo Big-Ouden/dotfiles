@@ -5,8 +5,9 @@
 
 ## GENERAL --------------------------------------------------------
 
+[general]
 ## Import additional configuration files.
-general.import = ["~/.config/i3/alacritty/colors.toml", "~/.config/i3/alacritty/fonts.toml"]
+import = ["~/.config/i3/alacritty/colors.toml", "~/.config/i3/alacritty/fonts.toml"]
 
 ## You can set shell.program to the path of your favorite shell, e.g. /bin/zsh.
 ## Entries in shell.args are passed as arguments to the shell.
@@ -17,10 +18,10 @@ general.import = ["~/.config/i3/alacritty/colors.toml", "~/.config/i3/alacritty/
 #working_directory = "None"
 
 ## Live config reload
-general.live_config_reload = true
+live_config_reload = true
 
 ## Offer IPC using alacritty msg
-general.ipc_socket = true
+ipc_socket = true
 
 ## ENVIRONMENT ----------------------------------------------------
 
@@ -44,7 +45,7 @@ decorations_theme_variant = "None"
 
 ## Number of lines/columns (not pixels) in the terminal.
 [window.dimensions]
-columns = 82
+columns = 95
 lines = 24
 
 ## Blank space added around the window in pixels.

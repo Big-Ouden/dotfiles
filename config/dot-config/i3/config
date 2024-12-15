@@ -144,7 +144,7 @@ hide_edge_borders none
 ## preventing this from happening and must be used in combination with [command_criteria].
 ##
 ## Syntax: no_focus <criteria>
-no_focus [window_role="pop-up"]
+#no_focus [window_role="pop-up"]
 
 #------
 
@@ -204,7 +204,7 @@ focus_follows_mouse yes
 ## `none` disables warping entirely, whereas `output` is the default behavior described above.
 ##
 ## Syntax: mouse_warping output|none
-mouse_warping output
+mouse_warping none
 
 #------
 
@@ -228,7 +228,7 @@ popup_during_fullscreen smart
 ##
 ## Syntax: focus_wrapping yes|no|force|workspace
 # Disable focus wrapping
-# focus_wrapping no
+#focus_wrapping no
 # Force focus wrapping
 #focus_wrapping force
 
@@ -243,7 +243,7 @@ popup_during_fullscreen smart
 ## on the fly (they are read only once on startup and that’s it).
 ##
 ## Syntax: force_xinerama yes|no
-force_xinerama yes
+#force_xinerama yes
 
 #------
 
