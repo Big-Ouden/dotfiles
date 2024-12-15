@@ -1,10 +1,19 @@
 [Configuration]
+<<<<<<< HEAD
 LastActiveMode=THUNAR_RENAMER_MODE_EXTENSION
+=======
+LastActiveMode=THUNAR_RENAMER_MODE_BOTH
+>>>>>>> 4efdd8f6169de3ff8dd8b67757fe829f6d791c5b
 LastActiveRenamer=ThunarSbrReplaceRenamer
 
 [ThunarSbrReplaceRenamer]
 CaseSensitive=FALSE
+<<<<<<< HEAD
 Replacement=jpg.bak
 Pattern=jpg
+=======
+Replacement=conf.bak
+Pattern=conf
+>>>>>>> 4efdd8f6169de3ff8dd8b67757fe829f6d791c5b
 Regexp=FALSE
 
