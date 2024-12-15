@@ -13,3 +13,6 @@ ln $arguments $HOME/dotfiles/$1 ./wallpaper/chosen_background
 hsetroot -cover $HOME/dotfiles/wallpaper/chosen_background
 
 exit 0
+
+
+
