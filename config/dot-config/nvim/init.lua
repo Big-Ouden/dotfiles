@@ -33,8 +33,8 @@ require("lazy").setup({
 	require("plugins.markdown"),
 	require("plugins.type"),
 	require("plugins.live-preview"),
-	require("plugins.copilot"),
-	require("plugins.copilot-cmp"),
+	-- require("plugins.copilot"),
+	-- require("plugins.copilot-cmp"),
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
