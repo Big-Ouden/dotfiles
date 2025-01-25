@@ -7,10 +7,10 @@ if [[ $# -eq 0 || $# -gt 2 ]]; then
     exit 1
 fi
 
-rm ./wallpaper/chosen_background
-ln $arguments $HOME/dotfiles/$1 ./wallpaper/chosen_background
-# echo "ln $arguments $HOME/dotfiles/$1 ./wallpaper/chosen_background"
-hsetroot -cover $HOME/dotfiles/wallpaper/chosen_background
+rm $HOME/dotfiles/config/dot-config/i3/theme/wallpaper
+ln $arguments $HOME/dotfiles/$1 $HOME/dotfiles/config/dot-config/i3/theme/wallpaper
+echo "ln $arguments $HOME/dotfiles/$1 ./wallpaper/chosen_background"
+hsetroot -cover $HOME/dotfiles/$1 
 
 exit 0
 
