@@ -126,3 +126,4 @@ eval $(opam env)
 alias ssh="TERM=xterm ssh"
 
 alias vim="nvim"
+alias update_discord=sudo pacman -Sy discord --noconfirm

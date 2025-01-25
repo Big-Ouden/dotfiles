@@ -6,12 +6,12 @@
 configuration {
 	modi:                       "drun,run,filebrowser,window";
     show-icons:                 false;
-    display-drun:               " Apps";
-    display-run:                " Run";
-    display-filebrowser:        " Files";
-    display-window:             " Windows";
-	drun-display-format:        "{name}";
-	window-format:              "{c} · {t}";
+    // display-drun:               " Apps";
+    // display-run:                " Run";
+    // display-filebrowser:        " Files";
+    // display-window:             " Windows";
+	// drun-display-format:        "{name}";
+	// window-format:              "{c} · {t}";
 }
 
 /*****----- Global Properties -----*****/
@@ -60,7 +60,7 @@ window {
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
-    border-radius:               12px;
+    border-radius:               0px;
     border-color:                @border-colour;
     cursor:                      "default";
     /* Backgroud Colors */
@@ -153,7 +153,7 @@ case-indicator {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     2;
+    columns:                     1;
     lines:                       8;
     cycle:                       true;
     dynamic:                     true;
